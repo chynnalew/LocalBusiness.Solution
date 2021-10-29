@@ -1,10 +1,12 @@
 # Local Business API
+***
 
 #### An ASP.NET Core API to track local businesses
 <br>
 
 ### Created By: Chynna Lew
-<br>
+
+***
 
 ## Technologies Used
 
@@ -17,7 +19,7 @@
 * MySql Workbench
 * PostMan
 * Swagger
-
+***
 ## Description
 
 This API stores information about local shops and restaurants in Portland, Oregon.  The API has full CRUD functionality and is documented with Swagger. 
@@ -30,6 +32,9 @@ This API stores information about local shops and restaurants in Portland, Orego
   - Swagger Documentation
   - CORS
 - Complete documentation of API endpoints and the chosen further exploration
+
+#### The corresponding MVC application can be found [here](https://github.com/chynnalew/LocalBusinessClient.Solution)
+***
 
 ## Setup and Usage Instructions
 
@@ -132,16 +137,17 @@ The "LocalBusiness" tab contains example GET, POST, PUT, and DELETE queries
 - To Test a query, find the tab for the query type and click the "Try It Out" button located in the top right corner of the card
   - This will allow inputs in the tab's form fields
   - Enter your query in the form field(s) and click the "Execute" button to view the server responses
-
+***
 ## Known Bugs
 
 * none at this time
-
+***
 ### License
 
 [MIT License](https://opensource.org/licenses/MIT)
 Copyright 2021 Chynna Lew
-<br>
+
+***
 
 ## Support and contact details
 
