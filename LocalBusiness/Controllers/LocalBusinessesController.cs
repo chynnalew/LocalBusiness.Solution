@@ -87,5 +87,33 @@ namespace LocalBusiness.Controllers
       await _db.SaveChangesAsync();
       return NoContent();
     }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Business>>> Get(string name, string type, string genre, int price)
+    {
+      var query = _db.Businesses.AsQueryable();
+
+      if (name != null)
+      {
+        query = query.Where(e => e.Name.ToLower() == name.ToLower());
+      }
+
+      if (type != null)
+      {
+        query = query.Where(e => e.Type.ToLower() == type.ToLower());
+      }
+
+      if (genre != null)
+      {
+        query = query.Where(e => e.Genre.ToLower() == genre.ToLower());
+      }
+
+      if (price != 0)
+      {
+        query = query.Where(e => e.Price == price);
+      }
+
+      return await query.ToListAsync();
+    }
   }
 }
