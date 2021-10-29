@@ -1,8 +1,10 @@
 # Local Business API
 
-#### an ASP.NET Core API to track local businesses
+#### An ASP.NET Core API to track local businesses
+<br>
 
-#### Created By: Chynna Lew
+### Created By: Chynna Lew
+<br>
 
 ## Technologies Used
 
@@ -22,11 +24,11 @@ This API stores information about local shops and restaurants in Portland, Orego
 <br> This API was created as an independent project at Epicodus to demonstrate understanding of API creation with ASP.NET Core and mySql. The project requirements are:
 - The API includes full CRUD functionality
 - One of the following further exploration topic has been implemented (or proof that significant time was spent attempting implementation)
- - Authentication
- - Versioning
- - Pagination
- - Swagger Documentation
- - CORS
+  - Authentication
+  - Versioning
+  - Pagination
+  - Swagger Documentation
+  - CORS
 - Complete documentation of API endpoints and the chosen further exploration
 
 ## Setup and Usage Instructions
@@ -82,8 +84,8 @@ This API stores information about local shops and restaurants in Portland, Orego
 
 ## Review API Endpoints
 
--Base URL: `http://localhost:5000`
--Add HTTP Requests to the end of the Base URL to query the API
+- Base URL: `http://localhost:5000`
+- Add HTTP Requests to the end of the Base URL to query the API
 
 #### HTTP Requests
 ```
@@ -140,9 +142,10 @@ The "LocalBusiness" tab contains example GET, POST, PUT, and DELETE queries
 [MIT License](https://opensource.org/licenses/MIT)
 Copyright 2021 Chynna Lew
 <br>
-README template created by Chynna Lew and Paige Tiedeman
 
 ## Support and contact details
 
 * [Chynna Lew](github.com/chynnalew) 
 * <ChynnaLew@yahoo.com>
+
+<em style="color:grey">README structure created by Chynna Lew and Paige Tiedeman</em>
