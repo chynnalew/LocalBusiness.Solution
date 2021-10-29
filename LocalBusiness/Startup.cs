@@ -28,7 +28,7 @@ namespace LocalBusiness
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { 
-          Title = "LocalBusinesses", 
+          Title = "Local Businesses", 
           Version = "v1",
           Description = "An API containing a list of local businesses",
           TermsOfService = new Uri("https://example.com/terms"),
