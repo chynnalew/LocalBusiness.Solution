@@ -87,11 +87,11 @@ This API stores information about local shops and restaurants in Portland, Orego
 
 #### HTTP Requests
 ```
-GET /api/Business
-POST /api/Business
-GET /api/Business/{id}
-PUT /api/Business/{id}
-DELETE /api/Business/{id}
+GET /api/LocalBusinesses
+POST /api/LocalBusinesses
+GET /api/LocalBusinesses/{id}
+PUT /api/LocalBusinesses/{id}
+DELETE /api/LocalBusinesses/{id}
 ```
 #### Path Parameters
 | Parameter | Type | Description |  
@@ -103,7 +103,7 @@ DELETE /api/Business/{id}
 
 #### Example Query
 ```
-http://localhost:5000/api/LocalBusiness?name=Ole%20Ole
+http://localhost:5000/api/LocalBusinesses?name=Ole%20Ole
 ```
 
 #### Sample JSON
