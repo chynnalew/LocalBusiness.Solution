@@ -78,7 +78,7 @@ This API stores information about local shops and restaurants in Portland, Orego
     - Run the command `$ dotnet restore` to restore the project dependencies
     - Run the command `$ dotnet build` to build and compile the project
     - Run the command `$ dotnet run` to build and compile the project
-    - Calls can be made to the API in [Postman](https://www.postman.com/) with the address "http://localhost:5000/api/localBusiness" 
+    - Calls can be made to the API in [Postman](https://www.postman.com/) with the address "http://localhost:5000/api/LocalBusinesses" 
 
 ## Review API Endpoints
 
@@ -113,7 +113,8 @@ http://localhost:5000/api/LocalBusinesses?name=Ole%20Ole
       "name": "Ole Ole",
       "type": "Restaurant",
       "genre": "Mexican",
-      "description": "A small mexican restaurant with good burritos. Cash only",
+      "address": "2137 E Burnside St, Portland, OR 97214",
+      "description": "A family owned mexican restaurant with good burritos. Cash only",
       "price": 1
     }
 ```
@@ -121,10 +122,10 @@ http://localhost:5000/api/LocalBusinesses?name=Ole%20Ole
 #### Swagger Instructions
 This API uses [Swagger](https://swagger.io/tools/swagger-ui/) REST API Documentation
 - Navigate to the following url to access Swagger:
-  - NOTE: the program must be running to access Swagger
 ```
 http://localhost:5000/index.html
 ```
+  - NOTE: the program must be running to access Swagger
 The "LocalBusiness" tab contains example GET, POST, PUT, and DELETE queries
 - To Test a query, find the tab for the query type and click the "Try It Out" button located in the top right corner of the card
   - This will allow inputs in the tab's form fields
