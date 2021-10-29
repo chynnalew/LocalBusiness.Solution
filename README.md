@@ -87,11 +87,11 @@ This API stores information about local shops and restaurants in Portland, Orego
 
 #### HTTP Requests
 ```
-GET /api/BooksAPIs
-POST /api/BooksAPIs
-GET /api/BooksAPIs/{id}
-PUT /api/BooksAPIs/{id}
-DELETE /api/BooksAPIs/{id}
+GET /api/Business
+POST /api/Business
+GET /api/Business/{id}
+PUT /api/Business/{id}
+DELETE /api/Business/{id}
 ```
 #### Path Parameters
 | Parameter | Type | Description |  
@@ -99,8 +99,7 @@ DELETE /api/BooksAPIs/{id}
 | Name | string | Returns any business by name|  
 | Type | string | Returns any business by type (shop or restaurant) |  
 | Genre | string | Returns any business by genre (ex: Mexican/ Thai/ Korean restaurants, Music/ Clothing/ Thrift stores)|  
-| Price | int | Returns any business by price range(1-5, with 1 = less expensive, 5 = very expensive) |  
-| Rating | int | Returns any books with that number rating (1-10, 1 = unpopular, 10 = very popular) |     
+| Price | int | Returns any business by price range(1-5, with 1 = less expensive, 5 = very expensive) |     
 
 #### Example Query
 ```
@@ -111,11 +110,11 @@ http://localhost:5000/api/LocalBusiness?name=Ole%20Ole
 ```
     {
       "businessId": 0,
+      "name": "Ole Ole",
       "type": "Restaurant",
       "genre": "Mexican",
       "description": "A small mexican restaurant with good burritos. Cash only",
-      "price": 1,
-      "rating": 8,
+      "price": 1
     }
 ```
 
